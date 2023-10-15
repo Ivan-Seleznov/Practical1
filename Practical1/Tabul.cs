@@ -11,6 +11,12 @@ namespace Practical1
         public double[,] xy { get; private set; }
         public int n { get; private set; }
 
+        public Tabul()
+        {
+            xy = new double[1000,2];
+            n = 0;
+        }
+
         private double f1(double x)
         {
             return Math.Pow(x,4) + 2 * Math.Pow(x,3) - x;
@@ -24,7 +30,7 @@ namespace Practical1
             return Math.Log(Math.Pow(x, 3) + Math.Pow(x, 2));
         }
 
-        public void Tab(double xn = -1.78, double xk = 11.99, double h = 0.1, double a = 0.8)
+        public void Tab(double xn = -1.78, double xk = 11.99, double h = 0.1, double a = 0.5)
         {
             double x = xn;
             double y = 0;

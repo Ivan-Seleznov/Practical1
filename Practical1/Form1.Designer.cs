@@ -52,13 +52,13 @@
             // 
             chartArea1.Name = "ChartArea1";
             this.chart1.ChartAreas.Add(chartArea1);
-            this.chart1.Location = new System.Drawing.Point(321, 125);
+            this.chart1.Location = new System.Drawing.Point(445, 125);
             this.chart1.Name = "chart1";
             series1.ChartArea = "ChartArea1";
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
             series1.Name = "Series2";
             this.chart1.Series.Add(series1);
-            this.chart1.Size = new System.Drawing.Size(457, 300);
+            this.chart1.Size = new System.Drawing.Size(434, 300);
             this.chart1.TabIndex = 0;
             this.chart1.Text = "chart1";
             // 
@@ -72,7 +72,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(303, 300);
+            this.dataGridView1.Size = new System.Drawing.Size(421, 300);
             this.dataGridView1.TabIndex = 1;
             // 
             // x
@@ -139,6 +139,7 @@
             this.XnTextBox.Name = "XnTextBox";
             this.XnTextBox.Size = new System.Drawing.Size(72, 22);
             this.XnTextBox.TabIndex = 7;
+            this.XnTextBox.Text = "-1,78";
             // 
             // XkTextBox
             // 
@@ -146,6 +147,7 @@
             this.XkTextBox.Name = "XkTextBox";
             this.XkTextBox.Size = new System.Drawing.Size(72, 22);
             this.XkTextBox.TabIndex = 8;
+            this.XkTextBox.Text = "11,99";
             // 
             // hTextBox
             // 
@@ -153,6 +155,7 @@
             this.hTextBox.Name = "hTextBox";
             this.hTextBox.Size = new System.Drawing.Size(72, 22);
             this.hTextBox.TabIndex = 9;
+            this.hTextBox.Text = "0,1";
             // 
             // aTextBox
             // 
@@ -160,10 +163,11 @@
             this.aTextBox.Name = "aTextBox";
             this.aTextBox.Size = new System.Drawing.Size(72, 22);
             this.aTextBox.TabIndex = 10;
+            this.aTextBox.Text = "0,5";
             // 
             // CalculateButton
             // 
-            this.CalculateButton.Location = new System.Drawing.Point(646, 59);
+            this.CalculateButton.Location = new System.Drawing.Point(747, 58);
             this.CalculateButton.Name = "CalculateButton";
             this.CalculateButton.Size = new System.Drawing.Size(132, 23);
             this.CalculateButton.TabIndex = 11;
@@ -175,7 +179,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(891, 497);
             this.Controls.Add(this.CalculateButton);
             this.Controls.Add(this.aTextBox);
             this.Controls.Add(this.hTextBox);
