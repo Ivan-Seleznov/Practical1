@@ -19,18 +19,18 @@ namespace Practical1
         }
         public Array2DManager(int[,] newArray2D)
         {
-            if (newArray2D.GetLength(0) < 0 || newArray2D.GetLength(0) > 5 || newArray2D.GetLength(1) < 0 || newArray2D.GetLength(1) > 5)
+            if (newArray2D.GetLength(0) < 1 || newArray2D.GetLength(0) > 5 || newArray2D.GetLength(1) < 1 || newArray2D.GetLength(1) > 5)
             {
-                throw new Exception("Temps size exception. Max size - 10. MinSize - 0");
+                throw new Exception("Temps size exception. Max size - 5. MinSize - 1");
             }
 
             array2d = newArray2D;
         }
         public Array2DManager(int rows,int cols)
         {
-            if (rows < 0 || rows > 5 || cols < 0 || cols > 5)
+            if (rows < 1 || rows > 5 || cols < 1 || cols > 5)
             {
-                throw new Exception("Temps size exception. Max size - 10. MinSize - 0");
+                throw new Exception("Temps size exception. Max size - 5. MinSize - 1");
             }
 
             array2d = new int[rows, cols];
