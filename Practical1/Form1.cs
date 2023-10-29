@@ -45,5 +45,23 @@ namespace Practical1
                 chart1.Series[0].Points.AddXY(tabul1.xy[i, 0], tabul1.xy[i,1]);
             }
         }
+
+        private void OneDimensionalArrayButton_Click(object sender, EventArgs e)
+        {
+            BaseMenuForm OneDimensionalArrayForm = new OneDimensionalArrayForm();
+            ShowMenuForm(OneDimensionalArrayForm);
+        }
+
+        private void TwoDimensionalArrayButton_Click(object sender, EventArgs e)
+        {
+            BaseMenuForm TwoDimensionalArrayForm = new TwoDimensionalArrayForm();
+            ShowMenuForm(TwoDimensionalArrayForm);
+        }
+
+        private void ShowMenuForm(BaseMenuForm menuForm)
+        {
+            menuForm.Show();
+            Hide();
+        }
     }
 }
