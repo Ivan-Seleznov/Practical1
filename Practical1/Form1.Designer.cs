@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.x = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -48,6 +48,7 @@
             this.роботаЗМасивамиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.OneDimensionalArrayButton = new System.Windows.Forms.ToolStripMenuItem();
             this.TwoDimensionalArrayButton = new System.Windows.Forms.ToolStripMenuItem();
+            this.unitTestsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -55,14 +56,14 @@
             // 
             // chart1
             // 
-            chartArea3.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea3);
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
             this.chart1.Location = new System.Drawing.Point(445, 139);
             this.chart1.Name = "chart1";
-            series3.ChartArea = "ChartArea1";
-            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series3.Name = "Series2";
-            this.chart1.Series.Add(series3);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series1.Name = "Series2";
+            this.chart1.Series.Add(series1);
             this.chart1.Size = new System.Drawing.Size(434, 300);
             this.chart1.TabIndex = 0;
             this.chart1.Text = "chart1";
@@ -184,7 +185,8 @@
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.роботаЗМасивамиToolStripMenuItem});
+            this.роботаЗМасивамиToolStripMenuItem,
+            this.unitTestsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(891, 28);
@@ -203,16 +205,23 @@
             // OneDimensionalArrayButton
             // 
             this.OneDimensionalArrayButton.Name = "OneDimensionalArrayButton";
-            this.OneDimensionalArrayButton.Size = new System.Drawing.Size(224, 26);
+            this.OneDimensionalArrayButton.Size = new System.Drawing.Size(181, 26);
             this.OneDimensionalArrayButton.Text = "одновимірні";
             this.OneDimensionalArrayButton.Click += new System.EventHandler(this.OneDimensionalArrayButton_Click);
             // 
             // TwoDimensionalArrayButton
             // 
             this.TwoDimensionalArrayButton.Name = "TwoDimensionalArrayButton";
-            this.TwoDimensionalArrayButton.Size = new System.Drawing.Size(224, 26);
+            this.TwoDimensionalArrayButton.Size = new System.Drawing.Size(181, 26);
             this.TwoDimensionalArrayButton.Text = "двовимірні";
             this.TwoDimensionalArrayButton.Click += new System.EventHandler(this.TwoDimensionalArrayButton_Click);
+            // 
+            // unitTestsToolStripMenuItem
+            // 
+            this.unitTestsToolStripMenuItem.Name = "unitTestsToolStripMenuItem";
+            this.unitTestsToolStripMenuItem.Size = new System.Drawing.Size(82, 24);
+            this.unitTestsToolStripMenuItem.Text = "UnitTests";
+            this.unitTestsToolStripMenuItem.Click += new System.EventHandler(this.unitTestsToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -264,6 +273,7 @@
         private System.Windows.Forms.ToolStripMenuItem роботаЗМасивамиToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem OneDimensionalArrayButton;
         private System.Windows.Forms.ToolStripMenuItem TwoDimensionalArrayButton;
+        private System.Windows.Forms.ToolStripMenuItem unitTestsToolStripMenuItem;
     }
 }
 

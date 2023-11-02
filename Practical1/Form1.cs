@@ -63,5 +63,11 @@ namespace Practical1
             menuForm.Show();
             Hide();
         }
+
+        private void unitTestsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            BaseMenuForm unitTestsForm = new UnitTestsForm();
+            ShowMenuForm(unitTestsForm);
+        }
     }
 }

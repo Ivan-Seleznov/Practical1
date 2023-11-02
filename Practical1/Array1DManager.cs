@@ -64,7 +64,7 @@ namespace Practical1
             Random random = new Random();
             for (int i = 0; i < temps.Length; i++) 
             {
-                temps[i] = random.Next(-50,50);
+                temps[i] = random.Next(-5,5);
             }
         }
 

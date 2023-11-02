@@ -54,6 +54,8 @@
     <Compile Include="BaseMenuForm.Designer.cs">
       <DependentUpon>BaseMenuForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="CalculationAB.cs" />
+    <Compile Include="CountMultiples.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +78,12 @@
     <Compile Include="TwoDimensionalArrayForm.Designer.cs">
       <DependentUpon>TwoDimensionalArrayForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="UnitTestsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitTestsForm.Designer.cs">
+      <DependentUpon>UnitTestsForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="BaseMenuForm.resx">
       <DependentUpon>BaseMenuForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -96,6 +104,9 @@
     </Compile>
     <EmbeddedResource Include="TwoDimensionalArrayForm.resx">
       <DependentUpon>TwoDimensionalArrayForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitTestsForm.resx">
+      <DependentUpon>UnitTestsForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
