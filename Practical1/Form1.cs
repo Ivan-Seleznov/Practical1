@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Practical1.Practical5;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -68,6 +69,18 @@ namespace Practical1
         {
             BaseMenuForm unitTestsForm = new UnitTestsForm();
             ShowMenuForm(unitTestsForm);
+        }
+
+        private void solidMenuItem_Click(object sender, EventArgs e)
+        {
+            BaseMenuForm unitTestsForm = new Solid();
+            ShowMenuForm(unitTestsForm);
+        }
+
+        private void Practical5MenuItem_Click(object sender, EventArgs e)
+        {
+            BaseMenuForm practiacal5Form = new Practical5Form();
+            ShowMenuForm (practiacal5Form);
         }
     }
 }

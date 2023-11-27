@@ -48,7 +48,9 @@
             this.роботаЗМасивамиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.OneDimensionalArrayButton = new System.Windows.Forms.ToolStripMenuItem();
             this.TwoDimensionalArrayButton = new System.Windows.Forms.ToolStripMenuItem();
+            this.solidMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.unitTestsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Practical5MenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -189,7 +191,7 @@
             this.unitTestsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(891, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(891, 30);
             this.menuStrip1.TabIndex = 12;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -197,31 +199,47 @@
             // 
             this.роботаЗМасивамиToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.OneDimensionalArrayButton,
-            this.TwoDimensionalArrayButton});
+            this.TwoDimensionalArrayButton,
+            this.solidMenuItem,
+            this.Practical5MenuItem});
             this.роботаЗМасивамиToolStripMenuItem.Name = "роботаЗМасивамиToolStripMenuItem";
-            this.роботаЗМасивамиToolStripMenuItem.Size = new System.Drawing.Size(158, 24);
+            this.роботаЗМасивамиToolStripMenuItem.Size = new System.Drawing.Size(158, 26);
             this.роботаЗМасивамиToolStripMenuItem.Text = "Робота з масивами";
             // 
             // OneDimensionalArrayButton
             // 
             this.OneDimensionalArrayButton.Name = "OneDimensionalArrayButton";
-            this.OneDimensionalArrayButton.Size = new System.Drawing.Size(181, 26);
+            this.OneDimensionalArrayButton.Size = new System.Drawing.Size(224, 26);
             this.OneDimensionalArrayButton.Text = "одновимірні";
             this.OneDimensionalArrayButton.Click += new System.EventHandler(this.OneDimensionalArrayButton_Click);
             // 
             // TwoDimensionalArrayButton
             // 
             this.TwoDimensionalArrayButton.Name = "TwoDimensionalArrayButton";
-            this.TwoDimensionalArrayButton.Size = new System.Drawing.Size(181, 26);
+            this.TwoDimensionalArrayButton.Size = new System.Drawing.Size(224, 26);
             this.TwoDimensionalArrayButton.Text = "двовимірні";
             this.TwoDimensionalArrayButton.Click += new System.EventHandler(this.TwoDimensionalArrayButton_Click);
+            // 
+            // solidMenuItem
+            // 
+            this.solidMenuItem.Name = "solidMenuItem";
+            this.solidMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.solidMenuItem.Text = "практична 4";
+            this.solidMenuItem.Click += new System.EventHandler(this.solidMenuItem_Click);
             // 
             // unitTestsToolStripMenuItem
             // 
             this.unitTestsToolStripMenuItem.Name = "unitTestsToolStripMenuItem";
-            this.unitTestsToolStripMenuItem.Size = new System.Drawing.Size(82, 24);
+            this.unitTestsToolStripMenuItem.Size = new System.Drawing.Size(82, 26);
             this.unitTestsToolStripMenuItem.Text = "UnitTests";
             this.unitTestsToolStripMenuItem.Click += new System.EventHandler(this.unitTestsToolStripMenuItem_Click);
+            // 
+            // Practical5MenuItem
+            // 
+            this.Practical5MenuItem.Name = "Practical5MenuItem";
+            this.Practical5MenuItem.Size = new System.Drawing.Size(224, 26);
+            this.Practical5MenuItem.Text = "практична 5";
+            this.Practical5MenuItem.Click += new System.EventHandler(this.Practical5MenuItem_Click);
             // 
             // Form1
             // 
@@ -274,6 +292,8 @@
         private System.Windows.Forms.ToolStripMenuItem OneDimensionalArrayButton;
         private System.Windows.Forms.ToolStripMenuItem TwoDimensionalArrayButton;
         private System.Windows.Forms.ToolStripMenuItem unitTestsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem solidMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem Practical5MenuItem;
     }
 }
 

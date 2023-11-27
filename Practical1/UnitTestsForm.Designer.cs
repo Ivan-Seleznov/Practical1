@@ -104,6 +104,7 @@
             this.CTextBox1.Name = "CTextBox1";
             this.CTextBox1.Size = new System.Drawing.Size(100, 22);
             this.CTextBox1.TabIndex = 5;
+            this.CTextBox1.Text = "81";
             // 
             // BTextBox1
             // 
@@ -111,6 +112,7 @@
             this.BTextBox1.Name = "BTextBox1";
             this.BTextBox1.Size = new System.Drawing.Size(100, 22);
             this.BTextBox1.TabIndex = 4;
+            this.BTextBox1.Text = "54";
             // 
             // ATextBox1
             // 
@@ -118,6 +120,7 @@
             this.ATextBox1.Name = "ATextBox1";
             this.ATextBox1.Size = new System.Drawing.Size(100, 22);
             this.ATextBox1.TabIndex = 3;
+            this.ATextBox1.Text = "27";
             // 
             // label3
             // 
@@ -171,6 +174,7 @@
             this.BTextBox2.Name = "BTextBox2";
             this.BTextBox2.Size = new System.Drawing.Size(100, 22);
             this.BTextBox2.TabIndex = 8;
+            this.BTextBox2.Text = "1000";
             // 
             // ATextBox2
             // 
@@ -178,6 +182,7 @@
             this.ATextBox2.Name = "ATextBox2";
             this.ATextBox2.Size = new System.Drawing.Size(100, 22);
             this.ATextBox2.TabIndex = 7;
+            this.ATextBox2.Text = "1";
             // 
             // label4
             // 

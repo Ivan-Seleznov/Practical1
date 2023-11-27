@@ -46,7 +46,7 @@ namespace Practical1
                 int a = Convert.ToInt32(ATextBox2.Text);
                 int b = Convert.ToInt32(BTextBox2.Text);
 
-                CalculationAB calculationAB = new CalculationAB(1,1000);
+                CalculationAB calculationAB = new CalculationAB(a,b);
                 ResultLable2.Text = calculationAB.CountNumbers().ToString();
             }
             catch

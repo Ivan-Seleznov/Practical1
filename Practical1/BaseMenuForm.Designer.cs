@@ -33,9 +33,13 @@
             // 
             // CloseButton
             // 
-            this.CloseButton.Location = new System.Drawing.Point(622, 386);
+            this.CloseButton.AutoEllipsis = true;
+            this.CloseButton.AutoSize = true;
+            this.CloseButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.CloseButton.Location = new System.Drawing.Point(687, 411);
             this.CloseButton.Name = "CloseButton";
-            this.CloseButton.Size = new System.Drawing.Size(145, 30);
+            this.CloseButton.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.CloseButton.Size = new System.Drawing.Size(101, 27);
             this.CloseButton.TabIndex = 0;
             this.CloseButton.Text = "Закрити вікно";
             this.CloseButton.UseCompatibleTextRendering = true;
@@ -51,6 +55,7 @@
             this.Name = "BaseMenuForm";
             this.Text = "BaseMenuForm";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
